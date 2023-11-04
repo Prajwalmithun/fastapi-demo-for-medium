@@ -9,6 +9,7 @@ spec:
   jobLabel: job
   selector:
     matchLabels:
+      job: node-warehouseapi
       app: service-warehouseapi
   endpoints:
   - port: web
