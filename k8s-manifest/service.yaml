@@ -6,7 +6,7 @@ metadata:
     job: node-warehouseapi
     app: service-warehouseapi
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: deploy-warehouseapi
   ports:
@@ -14,3 +14,4 @@ spec:
       protocol: TCP
       port: 6789
       targetPort: 6789
+      nodePort: 30001
