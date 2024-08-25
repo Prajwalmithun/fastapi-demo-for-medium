@@ -78,8 +78,8 @@ Wait till you see the status as Ready
 
 * Create k8s resources
 ```
-kubectl apply -f k8s-manifest/deployment.yaml
-kubectl apply -f k8s-manifest/gke-service.yaml
+kubectl apply -f k8s-manifest/gke/deployment.yaml
+kubectl apply -f k8s-manifest/gke/service.yaml
 ```
 
 * Get the external IP of the service
