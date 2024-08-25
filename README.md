@@ -19,8 +19,8 @@ Get the IP of the minikube cluster
 ```
 2. Create k8s resources
 ```
-# kubectl apply -f k8s-manifest/deployment.yaml
-# kubectl apply -f k8s-manifest/service.yaml
+# kubectl apply -f k8s-manifest/minikube/deployment.yaml
+# kubectl apply -f k8s-manifest/minikube/service.yaml
 # minikube service warehouse-fastapi-microservice
 ```
 
