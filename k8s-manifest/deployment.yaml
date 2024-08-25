@@ -18,7 +18,8 @@ spec:
         app: deploy-warehouseapi
     spec:
       containers:
-      - image: prajwal3498/warehouseapi:latest
+      # - image: prajwal3498/warehouseapi:latest
+      - image: us-west1-docker.pkg.dev/avid-phoenix-433407-v0/python-repo/warehouseapi:amd64
         name: warehouseapi
         resources: {}
 status: {}
