@@ -61,6 +61,11 @@ Eg:
 
 ### GKE cluster
 
+Configrue gcloud if not already done
+```
+gcloud init 
+```
+
 * Create a GKE cluster
 ```
 gcloud container clusters create-auto gke-cluster-01 --location=us-west1
